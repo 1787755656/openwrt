@@ -15,7 +15,7 @@ define Package/luci-app-adguardhome
 	CATEGORY:=LuCI
 	SUBMENU:=3. Applications
 	TITLE:=LuCI app for adguardhome
-	PKG_MAINTAINER:=<https://github.com/rufengsuixing/luci-app-adguardhome>
+	PKG_MAINTAINER:=<https://github.com/1787755656/openwrt/tree/master/luci-app-adguardhome>
 	PKGARCH:=all
 	DEPENDS:=+!wget-ssl&&!curl:wget-ssl
 endef

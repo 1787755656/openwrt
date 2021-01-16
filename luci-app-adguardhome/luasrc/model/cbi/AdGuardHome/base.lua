@@ -5,7 +5,7 @@ local m, s, o, o1
 local fs = require "nixio.fs"
 local uci = require"luci.model.uci".cursor()
 local configpath = uci:get("AdGuardHome", "AdGuardHome", "configpath") or "/etc/config/AdGuardHome.yaml"
-local binpath = uci:get("AdGuardHome", "AdGuardHome", "binpath") or "/usr/bin/AdGuardHome/AdGuardHome"
+local binpath = uci:get("AdGuardHome", "AdGuardHome", "binpath") or "/tmp/AdGuardHome/AdGuardHome"
 httpport = uci:get("AdGuardHome", "AdGuardHome", "httpport") or "3000"
 
 m = Map("AdGuardHome", "AdGuard Home")
